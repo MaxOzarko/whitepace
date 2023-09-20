@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div data-aos="fade-down" class="container header__inset">
+            <a href="#" class="header__logo" aria-label="to main"></a>
+            <div class="header__btn">
+                <a href="#" class="btn header__btn_yellow">Login</a>
+                <a href="#" class="btn btn_blue header__btn_blue">Try Whitepace free</a>
+            </div>
+            <nav class="menu">
+                <button type="button" class="menu__btn js-menu-btn" aria-label="open/close menu">
+                    <span></span>
+                </button>
+                <ul class="menu__list js-menu-list">
+                    <li><a class="dmsans" href="#">Products<img src="./img/arrow-down.svg" alt="Arrow"></a></li>
+                    <li><a class="dmsans" href="#">Solutions<img src="./img/arrow-down.svg" alt="Arrow"></a></li>
+                    <li><a class="dmsans" href="#">Resources<img src="./img/arrow-down.svg" alt="Arrow"></a></li>
+                    <li><a class="dmsans" href="#">Pricing<img src="./img/arrow-down.svg" alt="Arrow"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="visually-hidden"> Whitepace</h1>
+        <section class="intro">
+            <div class="container intro__wrapper">
+                <div  data-aos="fade-right" class="intro__descr">
+                    <h2 class="h2-title h2-title_white intro__title">Get More Done with whitepace</h2>
+                    <p class="text text_white">Project management software that enables your teams to collaborate, plan,
+                        analyze and manage everyday tasks</p>
+                    <a href="#" class="btn btn_md btn_blue">Try TasKey Free </a>
+                </div>
+                <img data-aos="fade-left" src="img/image1.jpg" class="img-responsive intro__img" alt="">
+            </div>
+        </section>
+        <section class="management">
+            <div class="container management__wrapper">
+                <div data-aos="fade-right" class="management__desc">
+                    <h2 class="h2-title h2-title_black management__title">Project Management</h2>
+                    <p class="text text_black">Images, videos, PDFs and audio files are supported. Create math
+                        expressions and diagrams directly from the app. Take photos with the mobile app and save them to
+                        a note.</p>
+                    <a href="#" class="btn btn_md btn_blue">Get Started</a>
+                </div>
+                <img data-aos="fade-left" src="img/image1.jpg" class="img-responsive management__img" alt="">
+            </div>
+        </section>
+        <section class="work-tg container">
+            <div data-aos="fade-left" class="work-tg__desc">
+                <h2 class="h2-title h2-title_black work-tg__title">Work together</h2>
+                <p class="text text_black">With whitepace, share your notes with your colleagues and collaborate on
+                    them. You can also publish a
+                    note to the internet and share the URL with others.</p>
+                <a href="#" class="btn btn_md btn_blue">Try it now</a>
+            </div>
+            <img data-aos="fade-right" src="img/work-tg.png" class="img-responsive work-tg__img" alt="">
+        </section>
+        <section class="extension">
+            <div class="container extension__wrapper">
+                <div data-aos="fade-right" class="extension__desc">
+                    <h2 class="h2-title h2-title_white extension__title">Use as Extension</h2>
+                    <p class="text text_white">Use the web clipper extension, available on Chrome and Firefox, to save
+                        web pages or take screenshots as notes.
+                    </p>
+                    <a href="#" class="btn btn_md btn_blue">Let’s Go</a>
+                </div>
+                <img data-aos="fade-left" src="img/image1.jpg" class="img-responsive extension__img" alt="Use extension">
+            </div>
+        </section>
+        <section class="needs container">
+            <img data-aos="fade-right" src="img/image1.jpg" class="img-responsive needs__img" alt="customise your needs">
+            <div data-aos="fade-left" class="needs__desc">
+                <h2 class="h2-title h2-title_black needs__title">Customise it to your needs</h2>
+                <p class="text text_black">Customise the app with plugins, custom themes and multiple text editors (Rich
+                    Text or Markdown). Or create your own scripts and plugins using the Extension API.</p>
+                <div class="price__item-sm-wrapper">
+                    <a href="#" class="btn btn_md btn_blue">Let’s Go</a>
+                </div>
+        </section>
+        <section class="price container">
+            <h2 data-aos="fade-down" class="h2-title h2-title_black price__title">Choose Your Plan</h2>
+            <p data-aos="fade-down" class="text text_black price__text">Whether you want to get organized, keep your personal life on track,
+                or boost workplace productivity, Evernote has the right plan for you.</p>
+            <div data-aos="fade-down" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="price__box swiper-slide">
+                        <article class="price__item-sm">
+                            <h4 class="h4-title h4-title_black">Free</h4>
+                            <span class="price__item-sm-value">$0</span>
+                            <p class="price__item-sm-text">Capture ideas and find them quickly</p>
+                            <ul class="price__item-sm-list">
+                                <li>Sync unlimited devices</li>
+                                <li>10 GB monthly uploads</li>
+                                <li>200 MB max. note size</li>
+                                <li>Customize Home dashboard and access extra widgets</li>
+                                <li>Connect primary Google Calendar account</li>
+                                <li>Add due dates, reminders, and notifications to your tasks</li>
+                            </ul>
+                            <div class="price__item-sm-wrapper">
+                                <a href="#" class="btn btn_sm btn_white">Get Started</a>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="price__box swiper-slide">
+                        <article class="price__item-lg">
+                            <h4 class="h4-title h4-title_white">Personal</h4>
+                            <span class="price__item-lg-value">$11.99</span>
+                            <p class="price__item-lg-text">Keep home and family on track</p>
+                            <ul class="price__item-lg-list">
+                                <li>Sync unlimited devices</li>
+                                <li>10 GB monthly uploads</li>
+                                <li>200 MB max. note size</li>
+                                <li>Customize Home dashboard and access extra widgets</li>
+                                <li>Connect primary Google Calendar account</li>
+                                <li>Add due dates, reminders, and notifications to your tasks</li>
+                            </ul>
+                            <div class="price__item-lg-wrapper">
+                                <a href="#" class="btn btn_sm btn_blue">Get Started</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="price__box swiper-slide">
+                        <article class="price__item-sm">
+                            <h4 class="h4-title h4-title_black">Organization</h4>
+                            <span class="price__item-sm-value">$49.99</span>
+                            <p class="price__item-sm-text">Capture ideas and find them quickly</p>
+                            <ul class="price__item-sm-list">
+                                <li>Sync unlimited devices</li>
+                                <li>10 GB monthly uploads</li>
+                                <li>200 MB max. note size</li>
+                                <li>Customize Home dashboard and access extra widgets</li>
+                                <li>Connect primary Google Calendar account</li>
+                                <li>Add due dates, reminders, and notifications to your tasks</li>
+                            </ul>
+                            <div class="price__item-sm-wrapper">
+                                <a href="#" class="btn btn_sm btn_white">Get Started</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="container work__wrapper">
+                <div class="work__desc">
+                    <h2 data-aos="fade-down" class="h2-title h2-title_white work__title">Your work, everywhere you are</h2>
+                    <p data-aos="fade-down" class="text text_white">Access your notes from your computer, phone or tablet by synchronising
+                        with
+                        various services, including whitepace, Dropbox and OneDrive. The app is available on Windows,
+                        macOS,
+                        Linux, Android and iOS. A terminal app is also available!</p>
+                    <a data-aos="fade-down" href="#" class="btn btn_md btn_blue">Try Taskey</a>
+                </div>
+            </div>
+        </section>
+        <section class="data container">
+            <img data-aos="fade-right" src="img/data.png" class="img-responsive data__img" alt="data">
+            <div data-aos="fade-left" class="data__desc">
+                <h2 class="h2-title h2-title_black data__title">100% your data</h2>
+                <p class="text text_black">The app is open source and your notes are saved to an open format, so you'll
+                    always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one
+                    but yourself can access them.</p>
+                <a href="#" class="btn btn_md btn_blue">Read more</a>
+            </div>
+        </section>
+        <section class="sponsors container">
+            <h2 data-aos="fade-down" class="h2-title h2-title_black sponsors__title">Our sponsors</h2>
+            <div data-aos="fade-down" class="sponsors__list">
+                <div>
+                    <img src="img/sponsors-apple.svg" alt="Apple">
+                </div>
+                <div>
+                    <img src="img/sponsors-microsoft.svg" alt="Microsoft">
+                </div>
+                <div>
+                    <img src="img/sponsors-slack.svg" alt="Slack">
+                </div>
+                <div>
+                    <img src="img/sponsors-google.svg" alt="Google">
+                </div>
+            </div>
+        </section>
+        <section class="using-wp">
+            <div class="container using-wp__wrapper">
+                <img data-aos="fade-right" src="img/using-wp-1920.png" class="img-responsive" alt="using whitepace">
+                <div data-aos="fade-left" class="using-wp__desc">
+                    <h2 class="h2-title h2-title_white using-wp__title">Work with Your Favorite Apps Using whitepace
+                    </h2>
+                    <p class="text text_white">Whitepace teams up with your favorite software. Integrate with over 1000+
+                        apps with Zapier to have all the tools you need for your project success.</p>
+                    <a href="#" class="btn btn_md btn_blue">Read more</a>
+                </div>
+            </div>
+        </section>
+        <section class="review container">
+            <h2 data-aos="fade-down" class="h2-title h2-title_black review__title">What Our Clients Says</h2>
+            <div data-aos="fade-down" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="review__item review__item-black swiper-slide">
+                        <div class="review__top">
+                            <img class="img-responsive" src="img/review-bl.png">
+                            <p class="text text_black review__top-text review__top-text-black">Taskkey is designed as a
+                                collaboration tool for
+                                businesses that is a full project management
+                                solution.</p>
+                        </div>
+                        <div class="review__name">
+                            <div class="review__img">
+                                <img class="img-responsive review__img" src="img/review-pic-01.jpg" alt="Oberon Shaw">
+                            </div>
+                            <div class="review__label">
+                                <p class="review__label-name review__label-name-black">Oberon Shaw, MCH</p>
+                                <p class="review__label-position review__label-position-black">Head of Talent
+                                    Acquisition,
+                                    North
+                                    America</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__item review__item-blue swiper-slide">
+                      <div class="review__top">
+                          <img class="img-responsive" src="img/review-white.png">
+                          <p class="text text_white review__top-text review__top-text-white">Taskkey is designed as a
+                              collaboration tool for
+                              businesses that is a full project management
+                              solution.</p>
+                      </div>
+                      <div class="review__name">
+                          <div class="review__img">
+                              <img class="img-responsive review__img" src="img/review-pic-02.jpg" alt="Oberon Shaw">
+                          </div>
+                          <div class="review__label">
+                              <p class="review__label-name review__label-name-blue">Oberon Shaw, MCH</p>
+                              <p class="review__label-position review__label-position-white">Head of Talent
+                                  Acquisition,
+                                  North
+                                  America</p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="review__item review__item-blue swiper-slide">
+                        <div class="review__top">
+                            <img class="img-responsive" src="img/review-white.png">
+                            <p class="text text_white review__top-text review__top-text-white">Taskkey is designed as a
+                                collaboration tool for
+                                businesses that is a full project management
+                                solution.</p>
+                        </div>
+                        <div class="review__name">
+                            <div class="review__img">
+                                <img class="img-responsive review__img" src="img/review-pic-02.jpg" alt="Oberon Shaw">
+                            </div>
+                            <div class="review__label">
+                                <p class="review__label-name review__label-name-blue">Oberon Shaw, MCH</p>
+                                <p class="review__label-position review__label-position-white">Head of Talent
+                                    Acquisition,
+                                    North
+                                    America</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__item review__item-blue swiper-slide">
+                        <div class="review__top">
+                            <img class="img-responsive" src="img/review-white.png">
+                            <p class="text text_white review__top-text review__top-text-white">Taskkey is designed as a
+                                collaboration tool for
+                                businesses that is a full project management
+                                solution.</p>
+                        </div>
+                        <div class="review__name">
+                            <div class="review__img">
+                                <img class="img-responsive review__img" src="img/review-pic-03.jpg" alt="Oberon Shaw">
+                            </div>
+                            <div class="review__label">
+                                <p class="review__label-name review__label-name-blue">Oberon Shaw, MCH</p>
+                                <p class="review__label-position review__label-position-white">Head of Talent
+                                    Acquisition,
+                                    North
+                                    America</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__item review__item-blue swiper-slide">
+                      <div class="review__top">
+                          <img class="img-responsive" src="img/review-white.png">
+                          <p class="text text_white review__top-text review__top-text-white">Taskkey is designed as a
+                              collaboration tool for
+                              businesses that is a full project management
+                              solution.</p>
+                      </div>
+                      <div class="review__name">
+                          <div class="review__img">
+                              <img class="img-responsive review__img" src="img/review-pic-03.jpg" alt="Oberon Shaw">
+                          </div>
+                          <div class="review__label">
+                              <p class="review__label-name review__label-name-blue">Oberon Shaw, MCH</p>
+                              <p class="review__label-position review__label-position-white">Head of Talent
+                                  Acquisition,
+                                  North
+                                  America</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="try-wp">
+            <div class="container try-wp__wrapper">
+                <h2 data-aos="fade-down" class="h2-title h2-title_white try-wp__title">Try Whitepace today</h2>
+                <p data-aos="fade-down" class="text text_white">Get started for free.
+                    Add your whole team as your needs grow.
+                </p>
+                <a data-aos="fade-down" href="http://www.freepik.com" class="text text_white">All pictures Designed by Freepik</a>
+                <div data-aos="fade-down" class="try-wp__btn">
+                    <a class="btn btn_md btn_blue" href="#">Try Taskey free</a>
+                </div>
+                <p data-aos="fade-down" class="text text_white">On a big team? Contact sales</p>
+                <div data-aos="fade-down" class="try-wp__logo">
+                    <a href="#" aria-label="to Apple">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+                            <path
+                                d="M46.4409 34.0931C44.7904 25.7868 52.6745 20.9153 52.6745 20.9153C52.6745 20.9153 49.6028 16.4712 44.4403 15.3279C39.2804 14.1821 36.6979 15.6137 34.1204 16.6874C31.5405 17.7637 30.2531 17.7637 30.2531 17.7637C26.53 17.7637 23.8083 13.8216 16.7148 15.6163C11.8278 16.8496 6.68328 22.491 5.75378 29.2242C4.82427 35.9599 6.8301 44.5546 10.6974 51.2157C14.5648 57.8819 18.5043 60.3871 21.3004 60.4592C24.0967 60.5287 26.8878 58.456 30.2531 57.9514C33.621 57.4518 35.6937 59.1719 38.9971 60.1014C42.2877 61.0284 43.4412 60.1683 47.2313 56.9446C51.0317 53.7209 54.4717 44.4749 54.4717 44.4749C54.4717 44.4749 48.0914 42.4046 46.4409 34.0931Z"
+                                fill="white" />
+                            <path
+                                d="M39.1337 9.95421C42.7899 6.22857 41.5514 0.460938 41.5514 0.460938C41.5514 0.460938 36.4173 1.36215 32.9773 4.94109C29.5399 8.52266 30.1089 14.1795 30.1089 14.1795C30.1089 14.1795 35.4774 13.6775 39.1337 9.95421Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+
+                    <a href="#" aria-label="to Windows">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+                            <path d="M0 33.3555V50.8322L24.9507 54.415V33.3555H0Z" fill="white" />
+                            <path d="M24.9507 6.51074L0 10.0936V27.5703H24.9507V6.51074Z" fill="white" />
+                            <path d="M59.9996 27.5696V1.18164L30.7412 5.38106V27.5696H59.9996Z" fill="white" />
+                            <path d="M30.7412 55.5441L59.9996 59.7393V33.3555H30.7412V55.5441Z" fill="white" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="to Android">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+                            <path
+                                d="M8.32884 19.8965C7.29504 19.8965 6.4179 20.257 5.69688 20.978C4.97585 21.699 4.61523 22.5642 4.61523 23.5741V39.0788C4.61523 40.1139 4.97575 40.9903 5.69688 41.7114C6.4179 42.4324 7.29504 42.793 8.32884 42.793C9.36188 42.793 10.2337 42.4325 10.9435 41.7114C11.652 40.9904 12.0072 40.1139 12.0072 39.0788V23.5741C12.0072 22.5641 11.6467 21.699 10.9255 20.978C10.2044 20.257 9.33866 19.8965 8.32884 19.8965Z"
+                                fill="white" />
+                            <path
+                                d="M38.1846 5.97729L40.7448 1.25452C40.9128 0.941848 40.853 0.702086 40.5649 0.533493C40.2521 0.388117 40.0118 0.461781 39.8439 0.749279L37.2479 5.50981C34.9637 4.49988 32.5477 3.99399 30.0001 3.99399C27.4519 3.99399 25.0357 4.49998 22.7523 5.50981L20.1562 0.749279C19.9875 0.461781 19.7472 0.388768 19.4352 0.533493C19.1464 0.702845 19.0866 0.941848 19.2553 1.25452L21.8156 5.97729C19.2195 7.30119 17.1519 9.14497 15.6136 11.5126C14.0752 13.8816 13.3057 16.4704 13.3057 19.2835H46.6582C46.6582 16.4711 45.8886 13.8822 44.3503 11.5126C42.8118 9.14497 40.7562 7.30119 38.1846 5.97729ZM23.3831 12.8466C23.1062 13.1242 22.7755 13.2623 22.3911 13.2623C22.006 13.2623 21.682 13.1242 21.4178 12.8466C21.1535 12.5704 21.0213 12.241 21.0213 11.8554C21.0213 11.471 21.1535 11.141 21.4178 10.8641C21.682 10.5879 22.0068 10.4498 22.3911 10.4498C22.7755 10.4498 23.1062 10.5879 23.3831 10.8641C23.6593 11.1416 23.798 11.471 23.798 11.8554C23.7973 12.2404 23.6586 12.5704 23.3831 12.8466ZM38.5809 12.8466C38.3161 13.1242 37.9914 13.2623 37.6077 13.2623C37.2224 13.2623 36.8919 13.1242 36.6155 12.8466C36.3388 12.5704 36.2007 12.241 36.2007 11.8554C36.2007 11.471 36.3388 11.141 36.6155 10.8641C36.8919 10.5879 37.2224 10.4498 37.6077 10.4498C37.9921 10.4498 38.316 10.5879 38.5809 10.8641C38.8454 11.1416 38.9774 11.471 38.9774 11.8554C38.9774 12.2404 38.8453 12.5704 38.5809 12.8466Z"
+                                fill="white" />
+                            <path
+                                d="M13.4492 44.5947C13.4492 45.7015 13.8336 46.6384 14.6025 47.4073C15.372 48.1761 16.3089 48.5605 17.4149 48.5605H20.0834L20.1199 56.7465C20.1199 57.7802 20.4804 58.658 21.2015 59.3791C21.9225 60.1002 22.7883 60.4607 23.7975 60.4607C24.8307 60.4607 25.7083 60.1002 26.4295 59.3791C27.1506 58.658 27.5111 57.7803 27.5111 56.7465V48.5613H32.4869V56.7465C32.4869 57.7802 32.8473 58.658 33.5684 59.3791C34.2895 60.1002 35.1665 60.4607 36.2004 60.4607C37.2335 60.4607 38.1112 60.1002 38.8323 59.3791C39.5535 58.658 39.9139 57.7803 39.9139 56.7465V48.5613H42.6183C43.6998 48.5613 44.6247 48.1768 45.395 47.4079C46.1637 46.6391 46.5483 45.7021 46.5483 44.5954V20.5801H13.4492V44.5947Z"
+                                fill="white" />
+                            <path
+                                d="M51.6709 19.8965C50.6609 19.8965 49.7958 20.2517 49.0747 20.9601C48.3537 21.6699 47.9932 22.5417 47.9932 23.5741V39.0788C47.9932 40.1139 48.3536 40.9903 49.0747 41.7114C49.7958 42.4325 50.6616 42.793 51.6709 42.793C52.704 42.793 53.5817 42.4325 54.3028 41.7114C55.0239 40.9903 55.3843 40.1139 55.3843 39.0788V23.5741C55.3843 22.5416 55.0239 21.6699 54.3028 20.9601C53.5817 20.2517 52.704 19.8965 51.6709 19.8965Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer data-aos="fade-down" class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__desc">
+                    <a href="#" class="footer__logo" aria-label="to main"></a>
+                    <p class="text text_white">whitepace was created for the new ways we live and work.
+                        We make beautyfully designed around the world</p>
+                </div>
+                <ul class="footer__menu">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Customer stories</a></li>
+                </ul>
+                <ul class="footer__menu">
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Guides & tutorials</a></li>
+                    <li><a href="#">Help center</a></li>
+                </ul>
+                <ul class="footer__menu">
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Media kit</a></li>
+                </ul>
+                <div class="footer__start-now">
+                    <h5 class="footer__title">Try It Today</h5>
+                    <p class="text text_white">Get started for free.
+                        Add your whole team as your needs grow.
+                    </p>
+                    <div class="footer__btn">
+                        <a href="#" class="btn btn_md btn_blue">Start today</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__list">
+                    <select name="language" aria-label="change language"
+                        class="footer__selec-lang text-sm text-sm_white">
+                        <option value="en" class="text-sm text-sm_white">English</option>
+                        <option value="uk" class="text-sm text-sm_white">Ukrainian</option>
+                    </select>
+                    <p class="text-sm text-sm_white">Terms & privacy</p>
+                    <p class="text-sm text-sm_white">Security</p>
+                    <p class="text-sm text-sm_white">Status</p>
+                    <p class="text-sm text-sm_white">©2021 Whitepace LLC.</p>
+
+                </div>
+                <div class="footer__social">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="18" viewBox="0 0 9 18" fill="none">
+                            <path
+                                d="M2.5058 10.2106C2.44316 10.2106 1.06497 10.2106 0.438515 10.2106C0.104408 10.2106 0 10.0853 0 9.77209C0 8.93682 0 8.08067 0 7.24541C0 6.9113 0.12529 6.80689 0.438515 6.80689H2.5058C2.5058 6.74425 2.5058 5.53311 2.5058 4.9693C2.5058 4.13404 2.65197 3.34053 3.06961 2.60967C3.50812 1.85793 4.13457 1.35677 4.92807 1.06443C5.45012 0.876495 5.97216 0.792969 6.53596 0.792969H8.58237C8.87471 0.792969 9 0.918259 9 1.2106V3.59111C9 3.88346 8.87471 4.00875 8.58237 4.00875C8.01856 4.00875 7.45476 4.00875 6.89095 4.02963C6.32715 4.02963 6.0348 4.30109 6.0348 4.88578C6.01392 5.51223 6.0348 6.1178 6.0348 6.76513H8.45708C8.79118 6.76513 8.91647 6.89042 8.91647 7.22452V9.75121C8.91647 10.0853 8.81207 10.1897 8.45708 10.1897C7.70534 10.1897 6.09745 10.1897 6.0348 10.1897V16.9971C6.0348 17.3521 5.93039 17.4774 5.55452 17.4774C4.67749 17.4774 3.82135 17.4774 2.94432 17.4774C2.63109 17.4774 2.5058 17.3521 2.5058 17.0389C2.5058 14.8463 2.5058 10.2732 2.5058 10.2106Z"
+                                fill="#F7F7EE" />
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">
+                            <path
+                                d="M17 1.8637C16.3678 2.14102 15.6942 2.32483 14.9919 2.41408C15.7144 1.9827 16.2658 1.30483 16.5251 0.487766C15.8514 0.889391 15.1077 1.17308 14.3151 1.33139C13.6754 0.650328 12.7638 0.228516 11.7693 0.228516C9.83981 0.228516 8.28644 1.79464 8.28644 3.71458C8.28644 3.99083 8.30981 4.25645 8.36719 4.50933C5.46975 4.36802 2.90594 2.97933 1.18362 0.863891C0.882937 1.38558 0.706563 1.9827 0.706563 2.62552C0.706563 3.83252 1.32812 4.90245 2.25463 5.52189C1.69469 5.51127 1.14538 5.3487 0.68 5.09264C0.68 5.10327 0.68 5.11708 0.68 5.13089C0.68 6.82452 1.88806 8.23127 3.47225 8.55533C3.18856 8.63289 2.87937 8.67008 2.5585 8.67008C2.33538 8.67008 2.11012 8.65733 1.89869 8.61058C2.35025 9.99077 3.63163 11.0055 5.15525 11.0384C3.9695 11.966 2.46394 12.5248 0.834063 12.5248C0.54825 12.5248 0.274125 12.5121 0 12.477C1.54381 13.4726 3.37344 14.041 5.3465 14.041C11.7597 14.041 15.266 8.72852 15.266 4.12364C15.266 3.96958 15.2607 3.82083 15.2533 3.67314C15.9449 3.18227 16.5261 2.5692 17 1.8637Z"
+                                fill="#F7F7EE" />
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
+                            <path
+                                d="M14.9962 15.6344V15.6338H14.9999V10.1153C14.9999 7.41558 14.4246 5.33594 11.3002 5.33594C9.79826 5.33594 8.79033 6.16855 8.37884 6.95789H8.3354V5.58798H5.37305V15.6338H8.45767V10.6595C8.45767 9.34976 8.70344 8.08329 10.3091 8.08329C11.8911 8.08329 11.9147 9.57797 11.9147 10.7435V15.6344H14.9962Z"
+                                fill="#F7F7EE" />
+                            <path d="M0.223633 5.56055H3.35796V15.4113H0.223633V5.56055Z" fill="#F7F7EE" />
+                            <path
+                                d="M1.79104 0.634766C0.802303 0.634766 0 1.43333 0 2.41746C0 3.40159 0.802303 4.21685 1.79104 4.21685C2.77979 4.21685 3.58209 3.40159 3.58209 2.41746C3.58147 1.43333 2.77916 0.634766 1.79104 0.634766V0.634766Z"
+                                fill="#F7F7EE" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <script>
+      // підключення Swiper
+
+        const swiper = new Swiper(".mySwiper", {
+            // кількість слайдів
+            slidesPerView: 1,
+            // ширена між слайдами
+            spaceBetween: 32,
+
+            // добавляє пагінацію
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            // адаптація для слайдера
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 32,
+                },
+                1152: {
+                    slidesPerView: 3,
+                    spaceBetween: 32,
+                },
+            },
+        });
+
+        // підключення анімації
+
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
